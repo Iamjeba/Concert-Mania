@@ -1,0 +1,98 @@
+Host: localhost
+Port: 1433 
+username: sa
+password: p@ssword13
+
+Finally
+JDBC url: jdbc:sqlserver://localhost:1433;databaseName=ConcertMania
+
+Tasks:
+
+
+Steps when a new data/box is added in the table
+1. Change variable name
+2. change the insert, update, remove code
+3. add getter method in 'User' class code
+4. Add content in table of 'ShowDBTable'
+5. drop and change table in MS SQL
+
+How to add Date in netbeans from jar file(All steps)
+http://www.aziosworld.com/2017/03/how-to-add-jcalendar-component-to.html
+
+
+Sample inputs
+
+
+Code for Combo Box in ticket table
+
+//    public void updateCombo() {
+//        String query = "select * from Concert_Registration";
+//        try {
+//            pst = conn.prepareStatement(query);
+//            rs = pst.executeQuery();
+//            while (rs.next()) {
+//                CID_ComboBox.addItem(rs.getString("id"));
+//            }
+//        } catch (Exception e) {
+//
+//        }
+//    }
+//    
+//    public void updateComboCname() {
+//        String query = "select * from Concert_Registration";
+//        try {
+//            pst = conn.prepareStatement(query);
+//            rs = pst.executeQuery();
+//            while (rs.next()) {
+//                Cname_ComboBox.addItem(rs.getString("name"));
+//            }
+//        } catch (Exception e) {
+//
+//        }
+//    }
+
+
+// TODO add your handling code here:
+        dispose();
+        RefundTicket po = new RefundTicket();
+        po.setVisible(true);
+
+Name: abc   admin1
+Email: abc@gmail.com       admin1@aust.edu
+Password: abc12345         admin1@123
+NID: 2411323419            2411311119111
+Phone No: 01619253055      01815283023
+DoB: 
+
+Name: abc   admin1
+Email: 190104034@aust.edu       admin1@aust.edu
+Password: wasi123             admin1@123
+NID: 2411323419                2411311119111
+Phone No: 01619253055          01815283023
+DoB: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
